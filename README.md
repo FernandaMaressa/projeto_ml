@@ -67,3 +67,25 @@ Baixe em: https://www.python.org/downloads/
 
 ```bash
 git clone https://github.com/projeto_ml.git
+
+Crie um ambiente virtual digitando o comando:
+
+No Windows: python -m venv venv
+
+No Linux/Mac: python3 -m venv venv
+
+Ative o ambiente virtual:
+
+No Windows: venv\Scripts\activate
+
+No Linux/Mac: source venv/bin/activate
+
+Instale as dependências necessárias usando o arquivo requirements.txt digitando:
+pip install -r requirements.txt
+
+Baixe o arquivo “heart_failure_clinical_records_dataset.csv” do Kaggle e coloque-o dentro da mesma pasta onde está o arquivo main.py.
+
+Execute o programa digitando:
+python main.py
+
+Aguarde o terminal processar todos os modelos. Quando a execução terminar, a interface gráfica será exibida com a tabela de comparação dos resultados.

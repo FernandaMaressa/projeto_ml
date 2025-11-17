@@ -1,0 +1,35 @@
+# --- AMBIENTE VIRTUAL ---
+venv/
+env/
+
+# --- ARQUIVOS PYTHON ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- CONFIGURAÇÕES DE EDITOR ---
+.vscode/
+.idea/
+
+# --- ARQUIVOS DE SISTEMA ---
+.DS_Store
+Thumbs.db
+
+# --- LOGS E TEMPORÁRIOS ---
+*.log
+*.tmp
+*.temp
+
+# --- ARQUIVOS GERADOS POR PACOTES ---
+*.egg-info/
+*.egg
+
+# --- JUPYTER NOTEBOOK CHECKPOINTS ---
+.ipynb_checkpoints/
+
+# --- ARQUIVOS DO WINDOWS ---
+desktop.ini
+
+# --- ARQUIVOS DE EXECUÇÃO ---
+*.sqlite3
